@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/BG.jpg);
+	background-repeat: repeat;
+	font-family: 'Open Sans', Sans-serif, Arial, Helvetica;
+}
+
+.contenedor {
+  width: 700px;
+  height: 550px;
+  margin: 40px auto;
+  padding: 20px;
+  overflow: auto;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* BARRA SCROLL PERSONALIZADA */
+
+.contenedor::-webkit-scrollbar {
+  width: 7px;
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+  background: #ff9d00;
+}
+
+.info {
+	width: 100%;
+}
+
+.info hr {
+	background: #ff9d00;
+	width: 20%;
+	height: 5px;
+	border: none;
+	margin: 20px 0;
+	border-radius: 50px;
+}
+
+.info .titulo {
+  color: #444;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.info .texto {
+  color: #55acee;
+	font-size: 15px;
+	line-height: 24px;
+}
